@@ -30,9 +30,19 @@ font-style: oblique;
 color:darkred;
 margin-left: 23px;
 }
+#button_send {
+	border-radius: 10ex;
+	border-top-style: groove;
+	border-bottom-style:double;
+	border-width: 3.5px;
+	border-color: cornflowerblue;
+	color:cornflowerblue;
+	float: center; 
+	background-color: lavender;
+	text-align: match-parent;
+}
 
-#word
-{
+#word{
 	width: 60%;
 }
 #word_display
@@ -41,12 +51,26 @@ margin-left: 23px;
 }
 #output
 {
-background: white;
+background-color:rgba(0, 255, 255, 0.664);
 border-radius: 10px;
-border-top: 10px solid #AA4465;
+border-top: 5px blanchedalmond;
+border-top-style: groove;
 padding: 10px;
 float: none;
-text-align: left;
+text-align: center;
+font-family: 'Inconsolata', monospace;
+text-size-adjust:inherit;
+}
+#button_check {
+	border-radius: 5ex;
+	border-top-style: groove;
+	border-bottom-style:double;
+	border-width: 1.5px;
+	border-color: cornflowerblue;
+	color:cornflowerblue;
+	float: center; 
+	background-color: lavender;
+	text-align: match-parent;
 }
 #login_button{
     border-radius: 70px;
